@@ -1,0 +1,45 @@
+name: be_talent_alex_challengue
+description: "A BeTalent app for challengue"
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.6
+  intl: ^0.20.0
+  test: ^1.25.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.1"
+
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon/app_icon.png"
+  adaptive_icon_background: "#0500FF" 
+  adaptive_icon_foreground: "assets/images/icon/app_icon.png"
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/Helvetica.ttf
+ 
