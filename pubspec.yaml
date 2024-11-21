@@ -16,6 +16,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   intl: ^0.20.0
   test: ^1.25.2
+  flutter_dotenv: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -45,4 +46,6 @@ flutter:
     - family: Helvetica
       fonts:
         - asset: assets/fonts/Helvetica.ttf
+  assets:
+    - .env
  
