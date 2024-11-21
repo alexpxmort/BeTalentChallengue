@@ -11,9 +11,6 @@ O objetivo deste projeto é servir como ponto de partida para o desenvolvimento 
 ---
 
 ## **Fotos**
-![Uploading image.png…]()
-![Uploading image.png…]()
-![Uploading image.png…]()
 
 
 
