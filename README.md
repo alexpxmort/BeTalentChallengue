@@ -10,6 +10,15 @@ O objetivo deste projeto é servir como ponto de partida para o desenvolvimento 
 
 ---
 
+## **Fotos**
+![Uploading image.png…]()
+![Uploading image.png…]()
+![Uploading image.png…]()
+
+
+
+
+
 ## **Pré-requisitos**
 
 Antes de começar, certifique-se de ter os seguintes requisitos instalados em sua máquina:
