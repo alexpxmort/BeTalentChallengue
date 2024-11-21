@@ -11,7 +11,6 @@ O objetivo deste projeto é servir como ponto de partida para o desenvolvimento 
 ---
 
 ## **Fotos**
-## **Fotos**
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <div style="width: 300px; height: 300px; background-image: url('assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.34.jpeg'); background-size: cover; background-position: center;"></div>
