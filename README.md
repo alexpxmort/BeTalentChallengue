@@ -15,7 +15,8 @@ O objetivo deste projeto é servir como ponto de partida para o desenvolvimento 
 <img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.45.jpeg" alt="Imagem do WhatsApp 02" />
 <img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.11.00.jpeg" alt="Imagem do WhatsApp 03"/>
 
-
+## **APK Android**
+Para baixar basta ir na pasta **apks** e escolher qual versão é compativel com seu celular,caso a primeira versão não funcione.
 ## **Pré-requisitos**
 
 Antes de começar, certifique-se de ter os seguintes requisitos instalados em sua máquina:
