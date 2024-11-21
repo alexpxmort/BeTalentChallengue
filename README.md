@@ -10,6 +10,12 @@ O objetivo deste projeto é servir como ponto de partida para o desenvolvimento 
 
 ---
 
+## **Fotos**
+<img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.34.jpeg" alt="Imagem do WhatsApp 01"/>
+<img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.45.jpeg" alt="Imagem do WhatsApp 02" />
+<img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.11.00.jpeg" alt="Imagem do WhatsApp 03"/>
+
+
 ## **Pré-requisitos**
 
 Antes de começar, certifique-se de ter os seguintes requisitos instalados em sua máquina:
