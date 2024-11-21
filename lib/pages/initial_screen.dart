@@ -1,5 +1,6 @@
 import 'package:be_talent_alex_challengue/pages/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 
 class InitialScreen extends StatefulWidget {
   const InitialScreen({super.key});
@@ -23,7 +24,7 @@ class _InitialScreenState extends State<InitialScreen> {
   Route _createRouteWithAnimation() {
     return PageRouteBuilder(
       pageBuilder: (context, animation, secondaryAnimation) =>
-          const HomeScreen(),
+          HomeScreen(client: http.Client()),
       transitionsBuilder: (context, animation, secondaryAnimation, child) {
         const curve = Curves.easeIn;
 

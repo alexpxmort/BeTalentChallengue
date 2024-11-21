@@ -9,7 +9,9 @@ import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  final http.Client client;
+
+  const HomeScreen({super.key, required this.client});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -31,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
     const apiUrl = 'https://desafio-mobile-lex.vercel.app/employees';
 
     try {
-      final response = await http.get(Uri.parse(apiUrl));
+      final response = await widget.client.get(Uri.parse(apiUrl));
 
       if (response.statusCode == 200) {
         final List<dynamic> jsonResponse = json.decode(response.body);
