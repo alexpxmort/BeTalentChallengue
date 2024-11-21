@@ -11,13 +11,9 @@ O objetivo deste projeto é servir como ponto de partida para o desenvolvimento 
 ---
 
 ## **Fotos**
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="width: 300px; height: 300px; background-image: url('assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.34.jpeg'); background-size: cover; background-position: center;"></div>
-  <div style="width: 300px; height: 300px; background-image: url('assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.45.jpeg'); background-size: cover; background-position: center;"></div>
-  <div style="width: 300px; height: 300px; background-image: url('assets/images/icon/WhatsApp Image 2024-11-21 at 18.11.00.jpeg'); background-size: cover; background-position: center;"></div>
-</div>
-
+<img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.34.jpeg" alt="Imagem do WhatsApp 01" width="500" height="500" style="object-fit:cover;"/>
+<img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.45.jpeg" alt="Imagem do WhatsApp 02" width="500" height="500" style="object-fit:cover;"/>
+<img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.11.00.jpeg" alt="Imagem do WhatsApp 03" width="500" height="500" style="object-fit:cover;"/>
 
 
 ## **Pré-requisitos**
