@@ -1,7 +1,10 @@
 import 'package:be_talent_alex_challengue/pages/initial_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+Future<void> main() async {
+  await dotenv.load(fileName: ".env");
   runApp(const MyApp());
 }
 
@@ -31,7 +34,7 @@ class MyApp extends StatelessWidget {
                 color: const Color(0xFF1C1C1C),
                 fontWeight: FontWeight.w400),
           )),
-      home: const InitialScreen(),
+      home: InitialScreen(client: http.Client()),
     );
   }
 }

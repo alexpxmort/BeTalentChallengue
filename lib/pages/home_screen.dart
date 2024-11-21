@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:be_talent_alex_challengue/contants/constants.dart';
 import 'package:be_talent_alex_challengue/utils/str.dart';
 import 'package:be_talent_alex_challengue/widgets/search_input.dart';
 import 'package:be_talent_alex_challengue/widgets/table/custom_table.dart';
@@ -7,6 +8,7 @@ import 'package:be_talent_alex_challengue/widgets/table/custom_table.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class HomeScreen extends StatefulWidget {
   final http.Client client;
@@ -30,8 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> fetchData() async {
-    const apiUrl = 'https://desafio-mobile-lex.vercel.app/employees';
-
+    final apiUrl = dotenv.env['API_URL'] ?? Constants.API_URL;
     try {
       final response = await widget.client.get(Uri.parse(apiUrl));
 

@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class InitialScreen extends StatefulWidget {
-  const InitialScreen({super.key});
+  final http.Client client;
+
+  const InitialScreen({super.key, required this.client});
 
   @override
   State<InitialScreen> createState() => _InitialScreenState();
@@ -24,7 +26,7 @@ class _InitialScreenState extends State<InitialScreen> {
   Route _createRouteWithAnimation() {
     return PageRouteBuilder(
       pageBuilder: (context, animation, secondaryAnimation) =>
-          HomeScreen(client: http.Client()),
+          HomeScreen(client: widget.client),
       transitionsBuilder: (context, animation, secondaryAnimation, child) {
         const curve = Curves.easeIn;
 
