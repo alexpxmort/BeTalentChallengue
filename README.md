@@ -11,6 +11,8 @@ O objetivo deste projeto é servir como ponto de partida para o desenvolvimento 
 ---
 
 ## **Fotos**
+<img src="assets/images/icon/WhatsApp Image 2024-11-21 at 18.10.34.jpeg" alt="Imagem do WhatsApp" />
+
 
 
 
